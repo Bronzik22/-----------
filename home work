@@ -1,0 +1,12 @@
+suma = 0
+for i in range(1,101):
+     if i % 2 == 0:
+    suma += i
+print("Сума парних чисел:" , suma)
+
+my_string = input()
+
+if my_string:
+    first_char = my_string[0]
+    count = my_string.count(first_char)
+    print(count)
